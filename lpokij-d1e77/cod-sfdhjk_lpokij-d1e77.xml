@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Cap. 2, De scientia Dei [Barcelona 1611 Transcription]</title>
+        <author ref="#Fr">Petrus Plaoul</author>
+        <editor ref="#JeffreyCWitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Cap. 2, De scientia Dei [Barcelona 1611 Transcription]</title>
+          <date when="2019-03-31">March 31, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-sfdhjk">Barcelona 1611</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-03-31" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="22"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="lpokij-d1e77">
+        <head xml:id="lpokij-d1e77-Hd1e95">Liber 1, Cap. 2. [Barcelona 1611 Transcription]</head>
+        <head xml:id="lpokij-d1e77-Hd1e98" type="question-title">De scientia Dei</head>
+        <p xml:id="lpokij-d1e77-d1e101">
+          <lb ed="#B" n="15"/>Deus autem qui infinitus 
+          <lb ed="#B"/>est, non solum secun<lb ed="#B"/>dum 
+          essentiam, sed etiam secun<pb ed="#B" n="23"/><lb ed="#B"/>dum 
+          intellectum, et cognitio<lb ed="#B"/>nem 
+          infinitam cognitionem ha<lb ed="#B"/>bet, 
+          qua seipsum (qui est obiectum 
+          <lb ed="#B"/>infinitum) comprehensive cog<lb ed="#B"/>noscit, 
+          et alia a se, obiectum au<lb ed="#B"/>tem 
+          motivum intellectus divi<lb ed="#B"/>ni 
+          est essentia divina, nam quid<lb ed="#B"/>quid 
+          intelligit per essentiam in<lb ed="#B"/>telligit, 
+          tamquam per rationem intel<lb ed="#B"/>ligendi 
+          se, et alia a se. Obiectum 
+          <lb ed="#B"/>autem terminativum intellectus 
+          <lb ed="#B"/>divini est duplex. Primarium, et 
+          <lb ed="#B"/>secundarium. Obiectum primarium 
+          <lb ed="#B"/>est ipsa essentia divina. Obie<lb ed="#B"/>ctum 
+          atuem secundarium est om<lb ed="#B"/>ne 
+          aliud, quod non est essentia 
+          <lb ed="#B"/>divina quomodocumque. Unde 
+          <lb ed="#B"/>creaturae sunt obiecta secundaria 
+          <lb ed="#B"/>intellectus divini, quia secunda<lb ed="#B"/>rio 
+          terminant cognitionem divi<pb ed="#B" n=""/><lb ed="#B"/>nam. 
+          Et quamvis Deus cognos<lb ed="#B"/>cat 
+          illas secundum quod in se 
+          <lb ed="#B"/>sunt nam conoscit homines 
+          secundum quod homines sunt 
+          <lb ed="#B"/>non tamen prout in se ipsis re<lb ed="#B"/>lucent; 
+          sed, prout relucent in 
+          <lb ed="#B"/>essentia divina, quia essentia 
+          <lb ed="#B"/>divina perfectius repraesentat 
+          <lb ed="#B"/>illa quam ipsae creaturae se ip<lb ed="#B"/>sas 
+          repraesentent.
+        </p>
+        <p xml:id="lpokij-d1e77-d1e175">
+          2. Et cum scientia Dei sit 
+          <lb ed="#B"/>causa exemplaris rerum, cum 
+          <lb ed="#B"/>Deus sit supremus artifex, si<lb ed="#B"/>cut 
+          artifiex per cognitionem do<lb ed="#B"/>mus 
+          (quam habet in mente) cog<lb ed="#B"/>noscit 
+          domum producibilem, 
+          <lb ed="#B"/>ita etiam Deus per suam scien<lb ed="#B"/>tiam 
+          cognoscit omnia a se pro<lb ed="#B"/>ducibilia. 
+          Et sicut artifex per 
+          <lb ed="#B"/>cognitionem (quam habet de do<pb ed="#B" n="25"/><lb ed="#B"/>mo)
+          cognoscit domum quando 
+          <lb ed="#B"/>est, et quando non est; nulla fa<lb ed="#B"/>cta 
+          variatione in ipsa cognitio<lb ed="#B"/>ne, 
+          ita Deus, supremus artifex 
+          <lb ed="#B"/>per cognitionem (quam habet 
+          <lb ed="#B"/>de rebus) cognoscit, et quando res 
+          <lb ed="#B"/>sunt, et quando non sunt.
+        </p>
+        <p xml:id="lpokij-d1e77-d1e213">
+          <lb ed="#B"/>3. Cognitio atuem divina du<lb ed="#B"/>plex 
+          communiter assignatur; Quae 
+          <lb ed="#B"/>distinctio sumitur (non ab ipsa 
+          <lb ed="#B"/>cognitione) sed ab obiectis, 
+          <lb ed="#B"/>ad quae secundario termina<lb ed="#B"/>tur. 
+          Alia enim dicitur scientia 
+          <lb ed="#B"/>visionis, Alia simplicis intelli<lb ed="#B"/>gentiae, 
+          Scientiae visionis cognos<lb ed="#B"/>cit 
+          omnia, ea, quae in aliqua tem<lb ed="#B"/>poris 
+          differentia sunt <sic>aeernitati</sic> 
+          praesentia; qualia sunt Praeteri<lb ed="#B"/>ta, 
+          Praesentia, et futura, quae rea<lb ed="#B"/>liter 
+          futura sunt. Scientia autem 
+          <pb ed="#B" n="26"/>
+          <lb ed="#B"/>simplicis intelligentiae cogno<lb ed="#B"/>scit 
+          omnia possibilia, licet numquam 
+          futura sint. Illa vero quae 
+          <lb ed="#B"/>futura sunt sub conditione (per<lb ed="#B"/>tinentia 
+          ad providentiam divi<lb ed="#B"/>nam) 
+          cognoscit Deus certissime; 
+          <lb ed="#B"/>licet in modo cognoscendi va<lb ed="#B"/>rient 
+          Theologi. Neoterici qui<lb ed="#B"/>dam 
+          dicunt, quod per scientiam 
+          <lb ed="#B"/>mediam (quam ponunt inter scien<lb ed="#B"/>tiam 
+          visionis, et scientiam sim<lb ed="#B"/>plicis 
+          intelligentiae.) Alii autem 
+          <lb ed="#B"/>quod per scientiam simplicis 
+          <lb ed="#B"/>intelligentiae. Quia futura sub 
+          <lb ed="#B"/>conditione (cum non sint futura 
+          <lb ed="#B"/>absolute) non exeunt ab ordi<lb ed="#B"/>ne 
+          rerum possibilium: Unde di<lb ed="#B"/>vidunt 
+          res possibiles in dupli<lb ed="#B"/>cem 
+          modum possibilitatis, et di<lb ed="#B"/>cunt; 
+          quod futura contingentia 
+          <lb ed="#B"/>sub conditione pertinent ad 
+          <lb ed="#B"/>possibile secundo modo, nem<lb ed="#B"/>pe 
+          quod futurum erit posita con<lb ed="#B"/>ditione, 
+          Mihi tamen videtur dicen<lb ed="#B"/>dum, 
+          et forte melius (iuxta illud <ref xml:id="lpokij-d1e77-Rd1e298">D. Pauli ad Romanos 11</ref> <quote xml:id="lpokij-d1e77-Qd1e301" ana="#rom11_33">O alti<lb ed="#B"/>tudo 
+          divitiarum sapientiae, et 
+          <lb ed="#B"/>scientia Dei</quote>. et Iuxta Psalmum 50 
+          <lb ed="#B"/><quote xml:id="lpokij-d1e77-Qd1e310" ana="#ps50_8">incerta, et occulta sapientiae tuae 
+          <lb ed="#B"/>manifestasti mihi</quote> quod Deus 
+          <lb ed="#B"/>per sapientiam suam cognoscit 
+          <lb ed="#B"/>futura ista conditionata perti<lb ed="#B"/>nentia 
+          ad providentiam divinam, 
+          Quia cum D. Paulus dictat <mentioned>sa<lb ed="#B"/>pientiae, 
+          et scientiae Dei</mentioned>, et illi 
+          <lb ed="#B"/>duo termini non sint Synono<lb ed="#B"/>mi 
+          ergo aliquid significatur per 
+          <lb ed="#B"/>nomen spaientiae, quod non signi<lb ed="#B"/>ficatur 
+          per nomen scientiae, sed sa<lb ed="#B"/>pientia 
+          est cognitio divina ergo 
+          <pb ed="#B" n="28"/>
+          <lb ed="#B"/>per nomen sapientia significatur 
+          <lb ed="#B"/>aliqua cognitio in Deo, quae per 
+          <lb ed="#B"/>ista nomina scientia visionis, et 
+          <lb ed="#B"/>scientia simplicis intelligentiae non 
+          <lb ed="#B"/>significatur; sed per haec nomina 
+          <lb ed="#B"/>(scientia visionis, et scientia 
+          <lb ed="#B"/>simplicis intelligentiae) signifi<lb ed="#B"/>catur 
+          cognitio divina, qua cog<lb ed="#B"/>noscuntur 
+          res secundum esse 
+          <lb ed="#B"/>possibile, vel secundum esse rea<lb ed="#B"/>le, 
+          in aliqua temporis differen<lb ed="#B"/>tia, 
+          ergo per hoc nomen Sapi<lb ed="#B"/>entia 
+          significabitur cognitio di<lb ed="#B"/>vina 
+          aliqua (distincta ab istis) 
+          qua, cognoscit Deus obiectum 
+          <lb ed="#B"/>secundarium in aliquo esse dis<lb ed="#B"/>tincto 
+          ab esse possibili, et ab es<lb ed="#B"/>se 
+          reali, et tale esse habent futu<lb ed="#B"/>ra 
+          ista conditionata: Quod esse 
+          <lb ed="#B"/>maius esse est, quam esse possi<pb ed="#B" n="28"/><lb ed="#B"/>bile;
+          et minus esse quam esse 
+          <lb ed="#B"/>reale in aliqua temporis dif<lb ed="#B"/>ferentia.
+        </p>
+        <p xml:id="lpokij-d1e77-d1e390">
+          4. Singularia autem cognos<lb ed="#B"/>cit 
+          Deus, quia cum cognitio Dei 
+          <lb ed="#B"/>se extendat ad omnia, ad quae 
+          <lb ed="#B"/>sua causalitas se extendit, et cau<lb ed="#B"/>salitas 
+          Dei ad singularia se ex<lb ed="#B"/>tendit, 
+          ideo et cognitio
+        </p>
+        <p xml:id="lpokij-d1e77-d1e403">
+          5. Futura autem contingen<lb ed="#B"/>tia 
+          absoluta cognoscit Deus cer<lb ed="#B"/>tissime 
+          (ut quod Antechristus 
+          <lb ed="#B"/>est futurus) non solum, ut sunt 
+          <lb ed="#B"/>futura in aliqua temporis diffe<lb ed="#B"/>rentia; 
+          sed tiam, ut sunt in sua 
+          <lb ed="#B"/>causa; et per consequens, in de<lb ed="#B"/>terminatione 
+          divinae volunta<lb ed="#B"/>tis, 
+          Quae cognitio in sua causa 
+          <lb ed="#B"/>quamvis in nobis sit coniectu<lb ed="#B"/>ralis 
+          in Deo tamen certissima 
+          <pb ed="#B" n="30"/>
+          <lb ed="#B"/>est; quia attingit a fine usque ad 
+          <lb ed="#B"/>finem fortiter. Unde cum causa 
+          <lb ed="#B"/>secunda liber liberos producit 
+          <lb ed="#B"/>effectus, de qua re capite sequenti. 
+        </p>
+        <p xml:id="lpokij-d1e77-d1e438">
+          <lb ed="#B"/>6 Cum autem Deus sit supre<lb ed="#B"/>mus 
+          artifex, necessario ponen<lb ed="#B"/>dae 
+          sunt in Deo Ideae, et exem<lb ed="#B"/>plaria 
+          rerum producendarum. Est 
+          <lb ed="#B"/>autem Idea, vel essentia divina 
+          <lb ed="#B"/>(prout imitabilis ab alia, et 
+          <lb ed="#B"/>alia creatura.) Vel essentia divi<lb ed="#B"/>na 
+          (prout cognita sub tali res<lb ed="#B"/>pectu. Vel cognitio divina secun<lb ed="#B"/>dum 
+          Scotum) prout terminata ad 
+          <lb ed="#B"/>hanc, vel illam creaturam: Nam, 
+          in rebus creatis idea domus fien<lb ed="#B"/>dae 
+          in mente artificis est notitia 
+          <lb ed="#B"/>ipsius domus fiendae, ergo, et idea 
+          <lb ed="#B"/>hominis in intellectu divino 
+          <lb ed="#B"/>erit cognitio divina prout ter<pb ed="#B" n="31"/><lb ed="#B"/>minata 
+          ad hominem: (et idea leo<lb ed="#B"/>nis, 
+          eadem cognitio divina, pro<lb ed="#B"/>ut 
+          ad leonem terminata) et sic 
+          <lb ed="#B"/>de omnibus aliis. Unde cum es<lb ed="#B"/>sentia 
+          divina, vel cognitio divi<lb ed="#B"/>na 
+          secundum quod includit illum 
+          <lb ed="#B"/>respectum sit idea, cum Deus 
+          <lb ed="#B"/>sit artifex omnium rerum non a 
+          <lb ed="#B"/>casu, sed intelligens: et non per 
+          <lb ed="#B"/>eandem ideam producat ho<lb ed="#B"/>minem, 
+          et leonem; erunt igitur 
+          <lb ed="#B"/>in Deo plures ideae, Nec hoc 
+          <lb ed="#B"/>est contra Dei simplicitatem, quia 
+          <lb ed="#B"/>intellectus divinus unica essen<lb ed="#B"/>tia 
+          simplicissima (tamquam ob<lb ed="#B"/>iecto 
+          motivo) omnes illos res<lb ed="#B"/>pectus, 
+          quos ponimus in essen<lb ed="#B"/>tia, 
+          vel in cognitione, imitabi<lb ed="#B"/>litatis, 
+          vel terminationes cog<lb ed="#B"/>noscit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

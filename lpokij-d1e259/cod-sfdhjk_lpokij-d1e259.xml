@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Cap. 5, De fide [Barcelona 1611 Transcription]</title>
+        <author ref="#Fr">Petrus Plaoul</author>
+        <editor ref="#JeffreyCWitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Cap. 5, De fide [Barcelona 1611 Transcription]</title>
+          <date when="2019-03-31">March 31, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-sfdhjk">Barcelona 1611</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-03-31" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="254"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="lpokij-d1e259">
+        <head xml:id="lpokij-d1e259-Hd1e95">Liber 3, Cap. 5 [Barcelona 1611 Transcription]</head>
+        <head xml:id="lpokij-d1e259-Hd1e98" type="question-title">, De fide</head>
+        <p xml:id="lpokij-d1e259-d1e98">
+          <pb ed="#B" n="254"/>
+          <lb ed="#B" n="1"/>1. Cum secundum D. Pau<lb ed="#B"/>lum 
+          accedentem ad Deum 
+          <lb ed="#B"/>oporteat credere quia est, et 
+          <lb ed="#B"/>credere sit duplex. Alterum na<lb ed="#B"/>turale, 
+          alterum et supernatura<lb ed="#B"/>le. 
+          Naturale quod versatur ci<lb ed="#B"/>rca 
+          obiectum naturale, ut quod 
+          <lb ed="#B"/>Deus est unus, et prima omnium 
+          <lb ed="#B"/>causa supernaturale autem quod 
+          <lb ed="#B"/>versatur circa obiectum super<lb ed="#B"/>naturale, 
+          ut quod Deus est ri<lb ed="#B"/>nus et unus; ideo principium 
+          <lb ed="#B"/>credendi duplex est alterum natu<lb ed="#B"/>rale 
+          quod appellatur fides acqui<lb ed="#B"/>sita 
+          alterum supernaturale, quod 
+          <lb ed="#B"/>appellatur fides infusa, sive ha<lb ed="#B"/>bitus 
+          fidei infusae, sive ha<lb ed="#B"/>bitus 
+          fidei infusae. Nam quamvis 
+          <lb ed="#B"/>possimus credere obiectum su<lb ed="#B"/>pernaturale 
+          per auxilium su<pb ed="#B" n="255"/><lb ed="#B"/>pernaturale, supplens vicem 
+          <lb ed="#B"/>habitus vicem 
+          habitus fidei regulariter tamen 
+          <lb ed="#B"/>credimus per habitum fidei, cu<lb ed="#B"/>ius 
+          obiectum est prima veritas 
+          revelans.
+        </p>
+        <p xml:id="lpokij-d1e259-d1e156">
+          <lb ed="#B"/>Quare cum omnia quae chri<lb ed="#B"/>stiana 
+          fides credit, ex eo credat, 
+          <lb ed="#B"/>quia prima veritas illa revela<lb ed="#B"/>vit; 
+          ideo cum haec ratio eadem 
+          <lb ed="#B"/>sit in omnibus revelatis; ideo 
+          <lb ed="#B"/>eodem habitu fidei omnia re<lb ed="#B"/>velata 
+          credimus; id est eodem 
+          <lb ed="#B"/>habitu credimus Deum: esse 
+          <lb ed="#B"/>trinum et unum. et Deum es<lb ed="#B"/>se 
+          incarnatum: Et quia prima 
+          <lb ed="#B"/>veritas, nec fallere, nec falli po<lb ed="#B"/>test, 
+          ideo fidei christianae sive 
+          <lb ed="#B"/>infusae, non potest sub esse falsum, 
+          <lb ed="#B"/>Et quia fides credit praedictum 
+          <lb ed="#B"/>dici de subiecto, non quia videt 
+          <pb ed="#B" n="256"/>
+          <lb ed="#B"/>connexionem subiecti cum prae<lb ed="#B"/>diato, 
+          Sed quia Deus dicit: 
+          <lb ed="#B"/>Ideo fidei et scientiae actus non 
+          <lb ed="#B"/>possunt esse simul, quia fidei 
+          <lb ed="#B"/>est credere, quod non vides. 
+        </p>
+        <p xml:id="lpokij-d1e259-d1e204">
+          <lb ed="#B"/>2. Ea autem quae fide credun<lb ed="#B"/>tur 
+          <lb ed="#B"/>per articulos distinguuntur 
+          <lb ed="#B"/>unde ubi occurrit speciali ratio<lb ed="#B"/>ne 
+          non visum ibi est specialis 
+          <lb ed="#B"/>articulus fide (verbi gratia) quia diffi<lb ed="#B"/>cultatem 
+          specialem habet, quod 
+          <lb ed="#B"/>Deu sit passus, et quod mor<lb ed="#B"/>nius 
+          resurrexist, ideo sunt duo 
+          <lb ed="#B"/>articuli, at vero quod sit passus, 
+          <lb ed="#B"/>mortuus, et sepultus cum non 
+          <lb ed="#B"/>habeat alia et aliam difficulta<lb ed="#B"/>tem 
+          ad eundem articulum per<lb ed="#B"/>tinent. Quod non nulli 12 alii 
+          <lb ed="#B"/>vero 14 enumerant Ad summum 
+          <lb ed="#B"/>autem Pontificem pertinet de<pb ed="#B" n="257"/><lb ed="#B"/>terminare 
+          quae ad symbolum 
+          <lb ed="#B"/>fidei pertinent. Credere autem 
+          <lb ed="#B"/>est actus fidei, ad quem requiri<lb ed="#B"/>ritur, 
+          non solum intellectus tam<lb ed="#B"/>quam 
+          principium elicitivum 
+          <lb ed="#B"/>cum habitu, sed et voluntas mo<lb ed="#B"/>vens 
+          intellectum ad credendum, 
+          <lb ed="#B"/>captivando illum in obsequium 
+          <lb ed="#B"/>fidei: qui actus credendi neces<lb ed="#B"/>sarius 
+          est ad salutem implicite, 
+          <lb ed="#B"/>vel explicite: Explicite articu<lb ed="#B"/>los 
+          fidei, et quo ad rudiores il<lb ed="#B"/>li 
+          qui caelebrantur ad ecclesia 
+          <lb ed="#B"/>ut nativitas, resurrectio ascen<lb ed="#B"/>tio 
+          Christi, mysterium Trinit<lb ed="#B"/>tis; 
+          licet etiam in hoc aliqualis 
+          <lb ed="#B"/>latitudo possit admitti, impli<lb ed="#B"/>cite 
+          autem omnia quae continen<lb ed="#B"/>tur in 
+          sacris litteris.
+        </p>
+        <p xml:id="lpokij-d1e259-d1e284">
+          <lb ed="#B"/>3. Qui actus elicitus ex gra<pb ed="#B" n="258"/><lb ed="#B"/>tia 
+          meritorius est, ex auxilio au<lb ed="#B"/>tem 
+          supernaturali est dispositio 
+          <lb ed="#B"/>ad gratiam. Fides autem eset in 
+          <lb ed="#B"/>intellectu tanquam in subiec<lb ed="#B"/>to, 
+          quae si informata est charita<lb ed="#B"/>te 
+          virtus est cum charitas sit for<lb ed="#B"/>ma 
+          omnium virtutum, si autem 
+          <lb ed="#B"/>sine charitate sit (ut in peccato<lb ed="#B"/>re 
+          in mortali existente) infor<lb ed="#B"/>mis 
+          dicitur. Verissimam tamen 
+          <lb ed="#B"/>habet rationem fidei, non ta<lb ed="#B"/>men 
+          habet rationem virtutis 
+          <lb ed="#B"/>perfectam: et est certior omni<lb ed="#B"/>bus 
+          habitibus intellectualibus, 
+          <lb ed="#B"/>licet sit obscura. Habuerunt il<lb ed="#B"/>lam 
+          tam Angeli, quam homo 
+          <lb ed="#B"/>in sui creatione.
+        </p>
+        <p xml:id="lpokij-d1e259-d1e328">
+          <lb ed="#B"/>4. Daemones autem modo 
+          <lb ed="#B"/>illum habitum infusum non ha<lb ed="#B"/>bent, 
+          sed fidem acquisitam, secun<pb ed="#B" n="259"/><lb ed="#B"/>dum quam <quote xml:id="lpokij-d1e259-Qd1e339" ana="#iac2_19">credunt, et contre<lb ed="#B"/>miscunt</quote>; 
+          quia in poenam suo<lb ed="#B"/>rum 
+          peccatorum privati sunt 
+          <lb ed="#B"/>illo habitu supernaturali, Haere<lb ed="#B"/>tici 
+          autem non habent fidem 
+          <lb ed="#B"/>infusam, quia ex ipso quod uni 
+          <lb ed="#B"/>articulo non credunt amittunt 
+          <lb ed="#B"/>illam, et nullum credunt, nisi 
+          <lb ed="#B"/>per acquisitam.
+        </p>
+        <p xml:id="lpokij-d1e259-d1e361">
+          <lb ed="#B"/>5. Causa autem effectiva hu<lb ed="#B"/>ius 
+          habitus, solus est Deus, un<lb ed="#B"/>de 
+          fides informis donum Dei 
+          <lb ed="#B"/>est, habet autem pro effectu ti<lb ed="#B"/>morem 
+          Dei, et specm vitae futu<lb ed="#B"/>rae 
+          quatenus bona futura in il<lb ed="#B"/>la 
+          relucent, quia secundum 
+          <lb ed="#B"/>D. Paul <quote xml:id="lpokij-d1e259-Qd1e380" ana="#hebr11_1">est substantia rerum 
+          <lb ed="#B"/>sperandarum, et argumentum 
+          <lb ed="#B"/>non apparentium</quote>. Habet etiam, 
+          <lb ed="#B"/>et purificare cor initiative, 
+          <pb ed="#B" n="260"/><lb ed="#B"/>quae si perificiatur per charitatem 
+          <lb ed="#B"/>sic formatam, perfectam cau<lb ed="#B"/>sat 
+          purificationem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
